@@ -21,7 +21,7 @@ func main() {
 	
 	flag.StringVar(&url, "url", "", "The URL of the event being live blogged")
 	flag.IntVar(&delay, "delay", 30, "The number of seconds to wait before fetching new updates")
-	flag.BoolVar(&read_all, "read-all", false, "If true read all previous posts (written before following has begun")
+	flag.BoolVar(&read_all, "read-all", false, "If true read all previous posts (written before following has begun)")
 	
 	flag.Parse()
 

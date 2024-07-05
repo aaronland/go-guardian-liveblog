@@ -21,7 +21,7 @@ Usage of ./bin/follow:
   -delay int
     	The number of seconds to wait before fetching new updates (default 30)
   -read-all
-    	If true read all previous posts (written before following has begun
+    	If true read all previous posts (written before following has begun)
   -url string
     	The URL of the event being live blogged
 ```

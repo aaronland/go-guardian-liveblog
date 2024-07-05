@@ -27,7 +27,7 @@ func main() {
 
 	cache := new(sync.Map)
 
-	handle_posts(ctx, url, cache)
+	handle_posts(ctx, url, cache, false)
 
 	ticker := time.NewTicker(time.Duration(delay) * time.Second)
 	defer ticker.Stop()
@@ -35,7 +35,7 @@ func main() {
 	for {
 		select {
 		case <-ticker.C:
-			handle_posts(ctx, url, cache)
+			handle_posts(ctx, url, cache, true)
 		}
 	}
 
@@ -47,7 +47,7 @@ func read_post(ctx context.Context, post string) {
 	cmd.Run()
 }
 
-func handle_posts(ctx context.Context, url string, cache *sync.Map) {
+func handle_posts(ctx context.Context, url string, cache *sync.Map, read bool) {
 
 	posts, err := get_posts(ctx, url)
 
@@ -64,7 +64,9 @@ func handle_posts(ctx context.Context, url string, cache *sync.Map) {
 			continue
 		}
 
-		read_post(ctx, p)
+		if read {
+			read_post(ctx, p)
+		}
 	}
 }
 

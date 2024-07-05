@@ -17,17 +17,19 @@ func main() {
 
 	var url string
 	var delay int
-
+	var read_all bool
+	
 	flag.StringVar(&url, "url", "", "The URL of the event being live blogged")
 	flag.IntVar(&delay, "delay", 30, "The number of seconds to wait before fetching new updates")
-
+	flag.BoolVar(&read_all, "read-all", false, "If true read all previous posts (written before following has begun")
+	
 	flag.Parse()
 
 	ctx := context.Background()
 
 	cache := new(sync.Map)
 
-	handle_posts(ctx, url, cache, false)
+	handle_posts(ctx, url, cache, read_all)
 
 	ticker := time.NewTicker(time.Duration(delay) * time.Second)
 	defer ticker.Stop()

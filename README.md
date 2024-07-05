@@ -29,8 +29,10 @@ $> ./bin/follow -url https://www.theguardian.com/football/live/2024/jul/05/spain
 2024/07/05 11:43:01 INFO ET30+6: The Spanish right-back walks for a second yellow after wrapping his hands around the neck of Musiala in a bid to bring him down. Free kick for Germany. Toni Kroos takes his last kick of the ball as a professional footballer and Germany are out …
 2024/07/05 11:43:16 INFO ET30+4: Fulkrug heads just wide from seven or eight yards after a Muller cross came his way. That was the chance!!!
 2024/07/05 11:43:24 INFO ET30+2: Kimmich has a shot from outside the area blocked. Ferran Torres breaks upfield but elects to try to score instead of running to the corner flag. Neuer launches the ball forward.
+
 ...and so on
 ```
 
 The `follow` tool will keep a local cache of posts its already seen (and read) for the duration it is run.
 
+_Note: This tool is not very sophisticated and might miss some posts._

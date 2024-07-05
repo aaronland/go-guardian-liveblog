@@ -41,4 +41,4 @@ $> ./bin/follow -url https://www.theguardian.com/football/live/2024/jul/05/spain
 
 The `follow` tool will keep a local cache of posts its already seen (and read) for the duration it is run.
 
-_Note: This tool is not very sophisticated and might miss some posts._
+Note: This tool is not very sophisticated and might miss some posts and should be updated to use the Guardian API (for example: https://api.nextgen.guardianapps.co.uk/football/api/match-nav/2024/07/05/5539/619.json?dcr=true&page=football%2Flive%2F2024%2Fjul%2F05%2Fportugal-v-france-euro-2024-quarter-final-live-score-updates).

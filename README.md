@@ -49,8 +49,8 @@ Or with multiple URLs:
 $> ./bin/follow \
 	https://www.theguardian.com/sport/live/2024/aug/06/paris-2024-olympics-day-11-live-updates-today-schedule-events-athletics-cycling-boxing \
 	https://www.theguardian.com/sport/live/2024/aug/06/usa-v-germany-paris-olympics-womens-soccer-semi-final-latest-score
-2024/08/06 12:01:02 INFO Paris 2024 Olympics day 11: Cole Hocker wins stunning 1500m gold ahead of GB’s Josh Kerr; women’s 200m final to follow – live
 
+2024/08/06 12:01:02 INFO Paris 2024 Olympics day 11: Cole Hocker wins stunning 1500m gold ahead of GB’s Josh Kerr; women’s 200m final to follow – live
 2024/08/06 12:01:13 INFO Kerr looks happy enough with silver. He’ll be disappointed, of course, and probably thought it was his with 30m to go. But he ran his race and things went as he planned, Ingebrigtsen perhaps spooked by the enormity of it all, but someone else was better on the day. And the times:
 2024/08/06 12:01:30 INFO Hocker (USA) 3:2765
 2024/08/06 12:01:34 INFO Kerr (GB) 3:27.79

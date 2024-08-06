@@ -15,15 +15,19 @@ go build -mod vendor -ldflags="-s -w" -o bin/follow cmd/follow/main.go
 
 ### follow
 
+Parse one or more Guardian "live blog" URLs and read them aloud.
+
 ```
 $> ./bin/follow -h
-Usage of ./bin/follow:
+Parse one or more Guardian "live blog" URLs and read them aloud.
+Usage:
+	 ./bin/follow [options] url(N) url(N)
   -delay int
     	The number of seconds to wait before fetching new updates (default 30)
   -read-all
     	If true read all previous posts (written before following has begun)
-  -url string
-    	The URL of the event being live blogged
+  -verbose
+    	Enable verbose (debug) logging.
 ```
 
 For example:

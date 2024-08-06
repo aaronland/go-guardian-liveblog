@@ -33,7 +33,7 @@ Usage:
 For example:
 
 ```
-$> ./bin/follow -url https://www.theguardian.com/football/live/2024/jul/05/spain-v-germany-euro-2024-quarter-final-live-score-updates
+$> ./bin/follow https://www.theguardian.com/football/live/2024/jul/05/spain-v-germany-euro-2024-quarter-final-live-score-updates
 
 2024/07/05 11:42:50 INFO It’s finally all over in Stuttgart, where Spain advance to the semi-finals at the expense of the hosts courtesy of Mikel Merino’s late, late, late winner. Football, bloody hell.
 2024/07/05 11:43:01 INFO ET30+6: The Spanish right-back walks for a second yellow after wrapping his hands around the neck of Musiala in a bid to bring him down. Free kick for Germany. Toni Kroos takes his last kick of the ball as a professional footballer and Germany are out …

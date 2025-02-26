@@ -4,7 +4,7 @@ Go package for watching Guardian live blog events and reading them aloud using t
 
 ## Important
 
-This is MacOS specific right now.
+This package has been superseded by the [aaronland/go-liveblog](https://github.com/aaronland/go-liveblog) package.
 
 ## Tools
 
